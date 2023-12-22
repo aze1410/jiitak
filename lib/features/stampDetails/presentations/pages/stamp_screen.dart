@@ -55,7 +55,7 @@ class StampDetailsPage extends StatelessWidget {
                           ),
                           SizedBox(height: screenHeight(context) * 0.015),
                           SizedBox(
-                            height: screenHeight(context) / 4,
+                            height: screenHeight(context) / 3.4,
                             child: SingleChildScrollView(
                               child: Column(
                                 children: _controller.stampDataList.map(
